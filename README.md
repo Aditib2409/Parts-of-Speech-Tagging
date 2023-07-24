@@ -24,6 +24,11 @@ where t(·|·) is the transition parameter and e(·|·) is the emission paramete
 
 ### Taks-4 Viterbi Decoding with HMM
 
+## About the Repo
+A txt file named `vocab.txt`, contains the vocabulary created on the training data. The format of the vocabulary file is that each line contains a word type, its index, and its occurrences, separated by the tab symbol ‘\t’. (see task 1).
+2. A JSON file named `hmm.json`, containing the emission and transition probabilities (see task 2).
+3. Two prediction files named `greedy.out` and `viterbi.out`, contain the predictions of your model on the test data with the greedy and Viterbi decoding algorithms.
+
   
 
 
