@@ -12,9 +12,12 @@ The first task is to create a vocabulary using the training data. In HMM, one im
 
 ### Task-2 Model Learning
 The second task is to learn an HMM from the training data. Remember that the solution of the emission and transition parameters in HMM is in the
-the following formulation: \\
-t(s′|s) = count(s→s′ )/count(s) \\
-e(x|s) = count(s→x)/count(s) \\
+the following formulation: 
+
+t(s′|s) = count(s→s′ )/count(s)
+
+e(x|s) = count(s→x)/count(s)
+
 where t(·|·) is the transition parameter and e(·|·) is the emission parameter.
 
 ### Taks-3 Greedy Decoding with HMM
